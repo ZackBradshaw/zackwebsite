@@ -14,33 +14,31 @@ const IndexPage = () => (
       <div className="padding-top-4em ">
         <div className="section">
           <div className="container">
-            {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, borderRadius: `2em` }}>
-              <Image />
-            </div> */}
             <div className="tile is-ancestor">
-              <div className="tile is-3 is-vertical is-parent">
-                <div
-                  className="tile is-child has-shadow"
-                  style={{ borderRadius: `.5em` }}
-                >
-                  <Image />
-                </div>
-                <div className="tile is-child box has-text-centered is-shady">
-                  {/* <p className="title">Two</p> */}
-                  <p>Nathan Bradshaw, Software Engineer</p>
-                  <p>Electronics Hobbyist</p>
-                </div>
+              <div className="tile is-parent mx-6">
+                <article className="tile is-child diagonal-box">
+                  <div className="content-box">
+                  </div>
+                </article>
               </div>
 
-              <div className="tile is-parent is-offset-1 is-7 is-shady box has-background-info-light">
-                <div className="tile is-child">
-                  <p className="title is-size-1 has-text-dark">Hello Fellow Human, Human Fellas</p>
-                  <p className="is-size-4">
-                    I am a Student at Brigham Young University... In Idaho, yeah there's one in Idaho. I am working towards a degree in Software Engineering. I really enjoy tinkering with electronics and I try my best to write about them. You can see some of the projects I created in the projects page of this website.
-                  </p>
-                </div>
+              <div className="tile is-parent mx-6">
+                <article className="tile is-child diagonal-box">
+                  <div className="content-box">
+                  </div>
+                </article>
               </div>
+              <div className="tile is-parent mx-6">
+                <article className="tile is-child diagonal-box">
+                  <div className="content-box">
+                    <div className="content">
+                      <p> Dick bum balls  Dick bum balls  Dick bum ballsDick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls  Dick bum balls </p>
+                    </div>
+                  </div>
+                </article>
+              </div> 
             </div>
+
           </div>
         </div>
       </div>
