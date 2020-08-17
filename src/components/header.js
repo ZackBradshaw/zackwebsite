@@ -35,12 +35,12 @@ const Header = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-fixed-top is-primary is-info"
+        className="navbar is-fixed-top"
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
+        <div className="container ribbon">
+          <div className="navbar-brand ribbon-inner  ">
             <AniLink
               className="navbar-item"
               paintDrip
@@ -48,7 +48,7 @@ const Header = class extends React.Component {
               hex="#62727b"
               duration={0.7}
             >
-              <b>Nathan Bradshaw</b>
+              <b>Zack Bradshaw</b>
             </AniLink>
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
