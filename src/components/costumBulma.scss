@@ -314,8 +314,13 @@ h1.post-title {
   // max-width: 20%;
   // min-height: 20%;
   height: 40em;
-}
+  animation: flyintoright 0.4s backwards;
 
+  transition: all 0.2s ease-in-out;
+}
+.diagonal-box:hover {
+  box-shadow: 15px 20px 13px 13px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
 
 .content-box {
 //  max-width: 50em;
@@ -324,5 +329,13 @@ h1.post-title {
    transform: skewX(0deg);
    margin-left: .3em;
    word-wrap: break-word;
+}
+.turtle{
+  transform: skewX(11deg);
+  position: relative;
+  animation: flyintoright 0.4s backwards;
+
+  transition: all 0.2s ease-in-out;
+
 }
 
