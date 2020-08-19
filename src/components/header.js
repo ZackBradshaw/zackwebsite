@@ -23,11 +23,11 @@ const Header = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active",
-            })
+            navBarActiveClass: "is-active",
+          })
           : this.setState({
-              navBarActiveClass: "",
-            })
+            navBarActiveClass: "",
+          })
       }
     )
   }
@@ -35,20 +35,22 @@ const Header = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-fixed-top"
+        className="navbar is-fixed-top header"
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="container ribbon">
-          <div className="navbar-brand ribbon-inner  ">
+        <div className="nav is-fixed-top">
+
+
+          <div className="">
             <AniLink
-              className="navbar-item"
+              className="navbar-brand nav-no-skew"
               paintDrip
               to="/"
               hex="#62727b"
               duration={0.7}
             >
-              <b>Zack Bradshaw</b>
+              <b className="nav-no-skew">Adventures of <br/> Zack Bradshaw</b>
             </AniLink>
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -67,13 +69,13 @@ const Header = class extends React.Component {
           >
             <AniLink
               activeClassName="nav-active"
-              className="navbar-item is-shady-nav dark-nav"
+              className="navbar-item r"
               paintDrip
               to="/"
               hex="#62727b"
               duration={0.7}
             >
-              Home
+              <span>Home</span>
             </AniLink>
             <AniLink
               activeClassName="nav-active"
@@ -81,20 +83,20 @@ const Header = class extends React.Component {
               to="projects"
               hex="#37474f"
               duration={0.6}
-              className=" navbar-item is-shady-nav "
+              className=" navbar-item y"
             >
-              Projects
+              <span>Projects</span>
             </AniLink>
-            {/* <AniLink
+            <AniLink
               activeClassName="nav-active"
               paintDrip
-              to="guides"
+              to="projects"
               hex="#37474f"
               duration={0.6}
-              className=" navbar-item is-shady-nav "
+              className=" navbar-item b"
             >
-              Guides
-            </AniLink> */}
+              <span>Projects</span>
+            </AniLink>
           </div>
           <div className="navbar-end has-text-centered"></div>
         </div>
