@@ -17,13 +17,13 @@ export default function Template({
           <div className="container">
             <div className="blog-post-container">
               <div className="blog-post">
-                <div className="title is-1 has-text-centered box has-background-primary-dark has-shadow">
+                <div className="title is-1 has-text-centered box retro-font has-background-primary-info has-shadow">
                   <p >{frontmatter.title}</p>
                   <p className="subtitle">{frontmatter.date}</p>
                 </div>
 
                 <div
-                  className="blog-post-content box has-background-dark has-text-white is-size-5 px-6 py-5"
+                  className="blog-post-content box has-background-success has-text-white is-size-5 px-6 py-5"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
               </div>

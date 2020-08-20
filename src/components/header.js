@@ -2,6 +2,7 @@
 // import PropTypes from "prop-types"
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { Link } from "gatsby"
 
 const Header = class extends React.Component {
   constructor(props) {
@@ -35,72 +36,50 @@ const Header = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-fixed-top header"
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <div className="nav is-fixed-top">
-
-
-          <div className="">
-            <AniLink
-              className="navbar-brand nav-no-skew"
-              paintDrip
-              to="/"
-              hex="#62727b"
-              duration={0.7}
-            >
-              <b className="nav-no-skew">Adventures of <br/> Zack Bradshaw</b>
-            </AniLink>
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
+      className="navbar is-fixed-to is-primary is-info"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="container">
+        <div className="navbar-brand navbar-brand-edit ">
+          <div className="navbar-start">
+          <Link className="navbar-item center-text is-hidden-mobile" to="/">
+            <b>Adventures of <br/> Zack Bradshaw</b>
+          </Link>
           <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-            duration={0.7}
+            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => this.toggleHamburger()}
           >
-            <AniLink
-              activeClassName="nav-active"
-              className="navbar-item r"
-              paintDrip
-              to="/"
-              hex="#62727b"
-              duration={0.7}
-            >
-              <span>Home</span>
-            </AniLink>
-            <AniLink
-              activeClassName="nav-active"
-              paintDrip
-              to="projects"
-              hex="#37474f"
-              duration={0.6}
-              className=" navbar-item y"
-            >
-              <span>Projects</span>
-            </AniLink>
-            <AniLink
-              activeClassName="nav-active"
-              paintDrip
-              to="projects"
-              hex="#37474f"
-              duration={0.6}
-              className=" navbar-item b"
-            >
-              <span>Projects</span>
-            </AniLink>
+            <span />
+            <span />
+            <span />
           </div>
-          <div className="navbar-end has-text-centered"></div>
         </div>
-      </nav>
+        </div>
+        <div className="navbar-end">
+        <div
+          id="navMenu"
+          className={`navbar-menu ${this.state.navBarActiveClass}`}
+        >
+          <Link
+            activeClassName="nav-active" className="navbar-item navbar-item-skew r" to="/"> 
+          <span>Home</span>
+          </Link>
+          <Link
+            activeClassName="nav-active" to="projects" className=" navbar-item  y">
+           <span>Projects</span>
+          </Link>
+          <Link
+            activeClassName="nav-active" to="guides" className=" navbar-item b">
+            <span>Guides</span>
+          </Link>
+        </div>
+        <div className="navbar-end has-text-centered"></div>
+      </div>
+      </div>
+    </nav>
+
     )
   }
 }

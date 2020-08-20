@@ -4,49 +4,80 @@ import React from "react"
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
+import { Link } from "gatsby"
+import Image from "../components/image"
+
 
 const Footer = ({ siteTitle }) => (
   <footer>
     <section className="hero is-black">
-      <div className="hero-body">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <h1 className="title">Nathan Bradshaw</h1>
-              <h2 className="subtitle"></h2>
-              <p>
-                © {new Date().getFullYear()}
-                {` `}
-                <AniLink to="/" paintDrip hex="#62727b" duration={0.7}>
-                  UnitedCode/Nate
-                </AniLink>
-              </p>
+      <div className="container">
+        <div className="columns">
+          <div className="column">
+
+
+
+
+            <div class="colmns flex-on-me">
+              <div class="colmn diagonal-box-footer r">
+                {/* Second column */}
+              </div>
+              <div class="clumn diagonal-box-footer y">
+                {/* Third column */}
+              </div>
+              <div class="colmn diagonal-box-footer b">
+                {/* Fourth column */}
+              </div>
             </div>
-            <div className="column">
+
+          </div>
+          <div className="column">
             <div className="social-icons">
-            <ul>
-                <li>
-                    <a href="https://github.com/nathansbradshaw" target="_top" title="Github">
-                        <FaGithub />
-                    </a>
+              <ul>
+                <li className="push--flat media-buttons">
+                  <p href="https://github.com/nathansbradshaw" target="_top" title="Github" className="media-buttons ">
+                    <FaGithub />
+                  </p>
                 </li>
-                <li>
-                    <a href="coming-soon" target="_top" title="Linkedin">
-                        <FaLinkedin />
-                    </a>
+                <li className="push--flat media-buttons">
+                  <p href="https://github.com/nathansbradshaw" target="_top" title="Github" className="media-buttons ">
+                    <FaGithub />
+                  </p>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/teh_pinto/" target="_top" title="Instagram">
-                        <FaInstagram />
-                    </a>
+                <li className="push--flat media-buttons">
+                  <p href="https://github.com/nathansbradshaw" target="_top" title="Github" className="media-buttons ">
+                    <FaGithub />
+                  </p>
                 </li>
-            </ul>
-            </div>
+                <li className="push--flat media-buttons">
+                  <p href="https://github.com/nathansbradshaw" target="_top" title="Github" className="media-buttons ">
+                    <FaGithub />
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
   </footer>
+
+
 )
 export default Footer
+
+export const ProjectsQuery = graphql`
+  query {
+    allFile(filter: {}) {
+      edges {
+        node {
+          childImageSharp {
+            fluid(traceSVG: { blackOnWhite: true }) {
+              src
+            }
+          }
+        }
+      }
+    }
+  }
+`

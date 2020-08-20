@@ -10,11 +10,11 @@ import { graphql } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="hero is-light is-bold is-fullheight">
-      <div className="padding-top-4em ">
+    <section className="hero is-light is-bold is-fullheight" >
+      <div className="padding-top-4em " id="tv">
         <div className="section">
           <div className="container">
-<p>RESERVED FOR SVG BS</p>
+<p className="giant-text retro-font retro-text-shadow">Select your character</p>
           </div>
         </div>
         <div className="section">
@@ -46,6 +46,7 @@ const IndexPage = () => (
                 </article>
               </div> 
             </div>
+            <p className="giant-text">refer to the turtles</p>
 
           </div>
         </div>
