@@ -23,7 +23,7 @@ class BlogRoll extends React.Component {
               >
                 <div className="columns">
                   <div className="column is-2 ">
-                    <FaFileCode className="big-icon" />
+                    <FaFileCode className="big-icon fab-code-icon" />
                   </div>
                   <div className="column ">
 

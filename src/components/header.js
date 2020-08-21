@@ -36,7 +36,7 @@ const Header = class extends React.Component {
   render() {
     return (
       <nav
-      className="navbar is-fixed-to is-primary is-info"
+      className="navbar is-fixed-to is-info"
       role="navigation"
       aria-label="main navigation"
     >
@@ -72,7 +72,7 @@ const Header = class extends React.Component {
           </Link>
           <Link
             activeClassName="nav-active" to="guides" className=" navbar-item b">
-            <span>Guides</span>
+            <span>Gallery</span>
           </Link>
         </div>
         <div className="navbar-end has-text-centered"></div>

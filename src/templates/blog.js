@@ -12,18 +12,18 @@ export default function Template({
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      <section className="hero is-light is-bold is-fullheight">
-        <div className="section is-medium">
-          <div className="container">
-            <div className="blog-post-container">
+      <section className="hero is-light is-fullheight">
+        <div className="section is-medium" id="tv">
+          <div className="container" >
+            <div className="blog-post-container" >
               <div className="blog-post">
-                <div className="title is-1 has-text-centered box retro-font has-background-primary-info has-shadow">
+                <div className="title is-1 has-text-centered box retro-font has-background-info has-shadow">
                   <p >{frontmatter.title}</p>
                   <p className="subtitle">{frontmatter.date}</p>
                 </div>
 
                 <div
-                  className="blog-post-content box has-background-success has-text-white is-size-5 px-6 py-5"
+                  className="blog-post-content has-text-white is-size-5 px-6 py-5"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
               </div>

@@ -16,17 +16,20 @@
 // If need, change your variables before importing Bulma
 $title-color: #363636;
 $scheme-invert: #000000;
-$secondary: #f9d56e;
+$secondary: #03301b;
 $secondary-light: #8559da;
-$secondary-dark: #cd4439;
-$primary-light: #f7dead;
-$primary-dark: #102027;
+$secondary-dark: #bf412d;;
+$primary-light: #302207;
+$primary-dark: #026d6d;
 $primary: $secondary;
 
 $info: $primary-dark;
-$light: #f7dead;
-$dark: #f7dead;
-$black: #72b896;
+$light: #01140b;
+$dark: #03301b;
+$black: #026d6d;
+$red: #bf412d;
+$yellow: #c78f2f;
+$blue: #0b2534;
 //cards
 $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
 .gradient-dark {
@@ -170,16 +173,33 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
 }
 .blog-post-content {
   h2 {
+    font-size: 2.5em;
+    margin: 0.7em 0em 0.4em 0em;
+    color: $yellow;
+    // text-shadow: white 1px 1px 2px;
+  }
+  h3 {
     font-size: 2em;
     margin: 0.7em 0em 0.4em 0em;
-    color: darkcyan;
+    color: $yellow;
+    // text-shadow: white 1px 1px 2px;
+  }
+  h4 {
+    font-size: 1.75em;
+    margin: 0.7em 0em 0.4em 0em;
+    color: $red;
+    // text-shadow: white 1px 1px 2px;
   }
   p {
-    margin-left: 0.75em;
-    margin-bottom: 0.2em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
   }
   strong {
-    color: steelblue;
+    font-size: 2.5em;
+    margin: 0.7em 0em 0.4em 0em;
+    text-shadow: white 1px 1px 2px;
+    color: $yellow;
   }
   img {
     min-width: 100%;
@@ -321,7 +341,7 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
 }
 
 .diagonal-box {
-  background-image: linear-gradient(45deg, #654ea3, #eaafc8);
+  // background-image: linear-gradient(45deg, #654ea3, #eaafc8);
   transform: skewY(-11deg);
   transform: skewX(-11deg);
   // max-width: 20%;
@@ -392,6 +412,8 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
   padding: 1em;
   transform: skewx(-60deg);
   transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+
 }
 
 // /* Text, unskew thyself! (But unskeweth not the clickable areas.) */
@@ -402,14 +424,14 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
 }
 
 .r {
-  background-color: #c2221f;
+  background-color: $red;
 }
 .y {
-  background-color: yellow;
+  background-color: $yellow;
   color: black;
 }
 .b {
-  background-color: #110269;
+  background-color: $blue;
 }
 
 .g {
@@ -427,17 +449,17 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
   );
 }
 .giant-text {
-  font-size: 8em;
+  font-size: 6em;
 }
 #tv {
   position: relative;
   width: 80%;
   height: auto;
   margin: 4em 10% 4em 10%;
-  background: rgb(50, 73, 80);
+  background: rgb(35, 63, 71);
   border-radius: 50% / 10%;
   color: white;
-  text-align: center;
+  // text-align: center;
   text-indent: 0.1em;
   padding-bottom: 2em;
 }
@@ -633,7 +655,7 @@ $button: 8em;
 }
 
 .achievement-items:hover {
-  box-shadow: 0 0px 0px 7px rgb(181, 167, 39), 0 6px 6px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0px 0px 7px $yellow, 0 6px 6px rgba(0, 0, 0, 0.19);
 
 }
 
@@ -655,4 +677,8 @@ $button: 8em;
 
 .retro-text-shadow-small {
   text-shadow: 5px 5px 2px #000000;
+}
+
+.fab-code-icon {
+  color: #026d6d;
 }

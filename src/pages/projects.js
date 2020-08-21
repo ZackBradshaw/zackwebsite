@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Projects" />
-        <section className="hero is-dark is-bold is-fullheight-with-navbar">
+        <section className="hero is-light">
           <div className="section is-medium" id="tv">
             <div className="container">
               <p className="title has-text-centered bo has-text-white mb-6 is-size-1 retro-font retro-text-shadow-small"> <GiTrophy/> Projects</p>
