@@ -30,6 +30,7 @@ $black: #026d6d;
 $red: #bf412d;
 $yellow: #c78f2f;
 $blue: #0b2534;
+$grey: white;
 //cards
 $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
 .gradient-dark {
@@ -363,13 +364,80 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
   transform: skewX(0deg);
   margin-left: 0.3em;
   word-wrap: break-word;
+  // align-content: center;
+  color: #01140b;
+  // text-align: end;
 }
+
+
+.turtle-color-r{
+ background-color: $grey;
+
+}
+.turtle-color-y{
+  background-color: $grey;
+}
+.turtle-color-b{
+  background-color: $grey;
+}
+
+.turtle-color-r:hover{
+  background-color: $red;
+ 
+ }
+ .turtle-color-y:hover{
+   background-color: $yellow;
+ }
+ .turtle-color-b:hover{
+   background-color: $blue;
+ }
+
 .turtle {
   transform: skewX(11deg);
   position: relative;
   animation: flyintoright 0.4s backwards;
 
   transition: all 0.2s ease-in-out;
+
+// float: left;
+  z-index: 2;
+  height: 120%;
+  width: 120%;
+  filter: grayscale(100%) contrast(100%) brightness(40%);
+  vertical-align: bottom;
+  padding-left: -3em;
+  margin-left: -10em;
+}
+
+.diagonal-box .content-box .turtle{
+  align-items: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+float: left;
+
+}
+.turtle:hover{
+  filter: grayscale(0%);
+  filter: contrast(100%);
+  
+}
+.turtle-text {
+  // z-index: -1;
+  // position: absolute;
+  // text-align: end;
+  // position: relative;
+  // bottom: 0;
+  // right: 0;
+
+}
+.turtle-text  p{
+  z-index: -1;
+  position: absolute;
+  text-align: end;
+  bottom: 0;
+  right: 0;
+
 }
 
 .diagonal-box-footer {
