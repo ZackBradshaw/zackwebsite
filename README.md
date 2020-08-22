@@ -16,6 +16,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1.  **Create a Gatsby site.**
 
+https://affectionate-wiles-255256.netlify.app/
+
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
     ```shell
