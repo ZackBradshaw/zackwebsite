@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -22,36 +22,36 @@ const IndexPage = () => (
             <div className="tile is-ancestor">
 
               <div className="tile is-parent mx-6">
-                <article className="tile is-child diagonal-box turtle-color-r">
-                  <div className="content-box">
-                    <div className="turtle">
-                      <img src="assets/projects.png"></img>
-                    </div>
+                <Link to="projects" className="tile is-child diagonal-box turtle-color-r">
+                  <div className="turtle-text has-text-centered">
+                    <p className="giext retro-font has-text-centered">Project</p>
                   </div>
-                </article>
+                  <div className="turtle">
+                    <img src="assets/projects.png"></img>
+                  </div>
+                </Link>
               </div>
 
               <div className="tile is-parent mx-6">
-                <article className="tile is-child diagonal-box turtle-color-y">
-                  <div className="content-box">
-                    <div className="turtle">
-                      <img src="assets/about.png"></img>
-                    </div>
+                <Link to="about" className="tile is-child diagonal-box turtle-color-y">
+                  <div className="turtle-text has-text-centered">
+                    <p className="giext retro-font has-text-centered">About zack</p>
                   </div>
-                </article>
+                  <div className="turtle">
+                    <img src="assets/about.png"></img>
+                  </div>
+                </Link>
               </div>
 
               <div className="tile is-parent mx-6">
-                <article className="tile is-child diagonal-box turtle-color-b">
-                  <div className="content-box">
-                    {/* <div className="content"> */}
-
-                      <div className="turtle">
-                        <img src="assets/artgallery.png"></img>
-                      </div>
-                    {/* </div> */}
+                <Link to="gallery" className="tile is-child diagonal-box turtle-color-b">
+                  <div className="turtle-text has-text-centered">
+                    <p className="giext retro-font has-text-centered">Gallery</p>
                   </div>
-                </article>
+                  <div className="turtle">
+                    <img src="assets/artgallery.png"></img>
+                  </div>
+                </Link>
               </div>
             </div>
 

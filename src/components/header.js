@@ -63,12 +63,12 @@ const Header = class extends React.Component {
           className={`navbar-menu ${this.state.navBarActiveClass}`}
         >
           <Link
-            activeClassName="nav-active" className="navbar-item navbar-item-skew r" to="/"> 
-          <span>Home</span>
+            activeClassName="nav-active" className="navbar-item navbar-item-skew r" to="projects"> 
+          <span>Projects</span>
           </Link>
           <Link
-            activeClassName="nav-active" to="projects" className=" navbar-item  y">
-           <span>Projects</span>
+            activeClassName="nav-active" to="about" className=" navbar-item  y">
+           <span>About</span>
           </Link>
           <Link
             activeClassName="nav-active" to="guides" className=" navbar-item b">
