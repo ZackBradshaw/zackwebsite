@@ -13,12 +13,12 @@ const Footer = ({ siteTitle }) => (
     <section className="hero is-black">
       <div className="container">
         <div className="columns">
-          <div className="column">
+          <div className="column no-padding">
 
 
 
 
-            <div class="colmns flex-on-me">
+            <div class="colmns flex-on-me no-padding">
               <div class="colmn diagonal-box-footer r">
                 {/* Second column */}
               </div>
@@ -31,7 +31,7 @@ const Footer = ({ siteTitle }) => (
             </div>
 
           </div>
-          <div className="column">
+          <div className="column no-padding">
             <div className="social-icons">
               <ul>
                 <li className="push--flat media-buttons">
