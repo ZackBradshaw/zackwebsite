@@ -12,15 +12,15 @@ const IndexPage = () => (
     <SEO title="Home" />
     <section className="hero is-light is-bol is-fullheight" >
       <div className="hero-boy" id="tv">
-        <div className="padding-top-4em " >
+        <div className="padding-top-4em character-select" >
           <div className="section">
             <div className="container has-text-centered">
               <p className="giant-text retro-font retro-text-shadow has-text-centered">Select your character</p>
             </div>
           </div>
-          <div className="section">
-            <div className="container">
-              <div className="tile is-ancestor">
+          <div className="section character-select">
+            <div className="container character-select">
+              <div className="tile is-ancestor character-select">
 
                 <div className="tile is-parent mx-6">
                   <Link to="projects" className="tile is-child diagonal-box turtle-color-r">
