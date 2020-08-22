@@ -11,10 +11,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section className="hero is-light is-bol is-fullheight" >
-      <div className="hero-body" id="tv">
+      <div className="hero-boy" id="tv">
         <div className="padding-top-4em " >
           <div className="section">
-            <div className="container">
+            <div className="container has-text-centered">
               <p className="giant-text retro-font retro-text-shadow has-text-centered">Select your character</p>
             </div>
           </div>

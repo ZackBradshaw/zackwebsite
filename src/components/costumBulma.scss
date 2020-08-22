@@ -31,6 +31,7 @@ $red: #bf412d;
 $yellow: #c78f2f;
 $blue: #0b2534;
 $grey: white;
+
 //cards
 $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
 .gradient-dark {
@@ -528,7 +529,10 @@ $card-shadow: 0px 2px 4px rgba(0, 0, 0, 0.68);
   color: white;
   // text-align: center;
   text-indent: 0.1em;
-  padding-bottom: 2em;
+  flex-grow: 1;
+flex-shrink: 0;
+padding: 3rem 1.5rem;
+    padding-bottom: 5em;
 }
 #tv:before {
   content: "";
@@ -784,3 +788,25 @@ $button: 8em;
   border-radius: 40% 40% 60% 60%;
   transition: opacity 200ms;
 }
+
+
+
+html {
+  overflow-x: initial !important;
+  background-color: $black;
+  margin: 0;
+padding: 0;
+}
+
+.tl-edges {
+  max-width: 100%;
+  overflow-x: initial;
+  // margin-bottom: -10em;
+}
+
+.no-padding{
+  padding: 0;
+  padding-top:.35em;
+}
+
+// * { border: 1px solid red; }
