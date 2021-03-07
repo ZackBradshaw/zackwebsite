@@ -1,16 +1,8 @@
 ---
 path: /blog/test_copy
 date: 2020-07-21T16:10:25.007Z
-title: Tina Ipsum
+title: Unreal Summer 2018 Cinematic Contest
 ---
-## Tina Ipsum
+## Unreal Cinema Contest
 
-Hi boys. I’m Tina. Put it on a t-shirt, Jimmy Jr, I don’t want to hear it. Everyone touched each other’s butts, and it was great. Follow me fellas…Lets go somewhere where the sixteen of us can be alone. A pants-off. For me? Ugg, my heart just pooped its pants. I texted back a smiley face. She texted back some letters I don’t understand. We can make this work. We can work out a dating wheel, just like a chore wheel. Let’s put the try in triangle. Tina reached towards Jimmy Junior’s butt: ‘Your lips say no but your butt says yes.’
-
-I need to find a boy with a turtle bite on his finger. I can’t tell where your back ends and your butt begins. Put it on a t-shirt, Jimmy Jr, I don’t want to hear it. Dr. Yap is dreamy. When he’s looking at my molars, it’s like he’s looking into my soul. This is such a snore-gasm. Sometimes with Jimmy Jr, I don’t know what to say. But now I don’t know what not to say and it’s like okay guys, who can get to my mouth first? Ugg, my heart just pooped its pants. A pants-off. For me?
-
-If I drunk text you and you’re asleep, don’t text me in the morning…that ship has sailed. The second time hurt the most. My bra’s chafing me. Dear Diary: Tonight I’m sneaking off to the abandoned taffy factory to look for treasure. Also, if boys had uteruses, they’d be called duderuses. Here’s a bunch of numbers. They may look random but they’re my phone number. I’m compiling a list of people I can mate with to repopulate the Earth. uhhhhhhh Yeah it’s an acquired taste. That I just acquired.
-
-This is like watching two monkeys at the puberty zoo. Here’s a bunch of numbers. They may look random but they’re my phone number. Do you think horses get songs stuck in their heads? Detention is no big deal. Don’t have a crap attack. I’ll wave at you every day. If I drunk text you and you’re asleep, don’t text me in the morning…that ship has sailed. Sausage leather belts. Yeah it’s an acquired taste. That I just acquired.
-
-This is like watching two monkeys at the puberty zoo. Everyone touched each other’s butts, and it was great. I’m torn. Dad raised me, but the shark gets me. Put it on a t-shirt, Jimmy Jr, I don’t want to hear it. Crap attack? Don’t have one? I need to find a boy with a turtle bite on his finger. So I think I’m being attacked by zombies and I start screaming, ‘Do you wanna make out?’ And I make out with it. He did? That’s the sleaziest, sneakiest, most romantic thing anyone’s ever done to me.
+For the month of the july i tasked my self with learning unreal's sequencer  during this time i learned valuable skills such as Level design, 3d animation, Animation Retargeting,Blender Animation land Rigging,Scene creation and lighting.<https://www.youtube.com/watch?v=dJpE6RzaMNM>
