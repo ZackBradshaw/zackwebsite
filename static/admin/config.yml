@@ -1,7 +1,7 @@
 backend:
   # name: test-repo
   name: github
-  repo:  TODO_ADD_REPO
+  repo:  ZackBradshaw/zackwebsite
 media_folder: "static/assets"
 public_folder: "/assets"
 collections:
