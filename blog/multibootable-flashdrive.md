@@ -1,0 +1,6 @@
+---
+path: /blog/test_copy
+date: 2021-03-09T00:49:09.068Z
+title: MultiBootable FlashDrive
+---
+While working in it at click computers i found our work flow to be very innefficent due to having to swap between various CDs and flashdrives to boot up to the software and often times they turned up missing due to leaving them in customers computers or just flat out missplacing them so i set out to create one tool to role them all and in the darkness bind them.To do this i got multiple 120gb flashdrives on to wich i loaded a grub OS version of linuix that i modded using XML to create a menu screen in wich the technition could boot to any of the various tool we owned.In additon i also customiized our windows install ISO's to install all updates skip all the set up with predefined selections and install all our starter apps and signal to the technition that the install was complete by playing a tune using post code sounds all of which i was able to acomplish with just a few XML files.
