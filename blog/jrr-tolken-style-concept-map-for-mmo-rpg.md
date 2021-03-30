@@ -1,5 +1,5 @@
 ---
-path: /blog/test_copy
+path: /blog/JRR-Tolken-Style-Concept-Map-For-MMO-RPG
 date: 2021-03-08T02:33:47.268Z
 title: JRR Tolken Style Concept Map For MMO RPG
 ---

@@ -1,5 +1,5 @@
 ---
-path: /blog/test_copy
+path: /blog/Blender-3D
 date: 2021-03-08T14:02:45.748Z
 title: Blender 3D
 ---

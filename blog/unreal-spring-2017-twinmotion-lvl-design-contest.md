@@ -1,5 +1,5 @@
 ---
-path: /blog/test_copy
+path: /blog/Unreal-Spring-2017-Twinmotion-Lvl-Design-Contest
 date: 2021-03-08T01:47:17.805Z
 title: Unreal Spring 2017 Twinmotion Lvl Design Contest
 ---
