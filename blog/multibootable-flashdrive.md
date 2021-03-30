@@ -1,5 +1,5 @@
 ---
-path: /blog/test_copy
+path: /blog/MultiBootable-FlashDrive
 date: 2021-03-09T00:49:09.068Z
 title: MultiBootable FlashDrive
 ---
