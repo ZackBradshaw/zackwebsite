@@ -15,9 +15,6 @@ const Footer = ({ siteTitle }) => (
         <div className="columns">
           <div className="column no-padding">
 
-
-
-
             <div class="colmns flex-on-me no-padding">
               <div class="colmn diagonal-box-footer r">
                 {/* Second column */}
